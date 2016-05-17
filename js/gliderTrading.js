@@ -189,3 +189,4 @@ function init() {
         icon: image
     });
 }
+

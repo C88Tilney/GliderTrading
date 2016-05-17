@@ -15,10 +15,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/gliderTrading.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome-animation.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -28,20 +29,30 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    
+    
+    <!-- Wow affect -->
+    <link rel="stylesheet" href="wow.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-bottom">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Glider</span> Trading
+                <a class="navbar-brand page-scroll" href="#home">
+                    <i class="fa fa-plane"> </i><span class="light"> Glider </span>Trading
                 </a>
             </div>
 
@@ -67,8 +78,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+            </div>
     </nav>
     
         <!-- Footer -->
@@ -82,8 +92,8 @@ Glider Trading LLP is authorised and regulated by the Financial Conduct Authorit
     <!-- regulatory Disclosures ------------>
     <div class="container text-center">
         <h3>Regulatory Disclosures</h3>
-        <a href="download/Capital%20Requirements%20Directive%20-%20Pillar%203%20(1).pdf">Capital Requirement Directive disclosure - Piller 3<br></a>
-            <a href="download/UK%20Stewardship%20Code.pdf">Uk Stewardship Code</a>
+        <a class="download" href="download/Capital%20Requirements%20Directive%20-%20Pillar%203%20(1).pdf">Capital Requirement Directive disclosure - Piller 3<br></a>
+            <a class="download" href="download/UK%20Stewardship%20Code.pdf">UK Stewardship Code</a>
     </div>
 
         <!-- Map Section -->
@@ -103,9 +113,6 @@ Glider Trading LLP is authorised and regulated by the Financial Conduct Authorit
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/CorradoScian" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
                         <a href="https://www.linkedin.com/company/2898053?trk=prof-0-ovw-curr_pos" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                 </ul>
@@ -114,11 +121,11 @@ Glider Trading LLP is authorised and regulated by the Financial Conduct Authorit
     </section>
 
     <!-- Research ----------------------------->
-    <section id="research" class="container content-section text-center">
-        <div class="row">
+    <section id="research" class="content-section text-center">
+        <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Research</h2>
-                <a href="download/Major_Opportunities.pdf">Major Opportunities</a>
+                <a class="download" href="download/Major_Opportunities.pdf">Major Opportunities</a>
                 <p>Our study explores significant trading opportunities available in the Futures Markets,
 during the last 35 years. (Originally Published in January 2012, updated in January 2016)</p>
             </div>
@@ -127,7 +134,7 @@ during the last 35 years. (Originally Published in January 2012, updated in Janu
 
     <!-- Trading Section -->
     <section id="trading" class="content-section text-center">
-        <div class="download-section">
+        <div class="trading-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Trading Strategy</h2>
@@ -155,22 +162,41 @@ The ascending pyramid process shows a brief illustration of the Strategy. Furthe
         </div>
     </section>
 
+<!-- Next intro -->
+
+    <section id="quotes" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <ul class="motto wow fadeInUp animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <li class="motto wow fadeInUp animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Onwards and upwards gliding beyond the clouds!</li>
+                    <li class="motto wow fadeInUp animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">You made the journey so far and so up. Even up here things may still keep going up!
+Share the wonder and the scrolling!</li>
+                    <li class="motto wow fadeInUp animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Actually, Markets works like that sometimes they keep going up</li>
+                    <li class="motto wow fadeInUp animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Participate in the strongest price motions among liquid Futuresand rotate into stronger price moves as opportunities arise</li>
+                </ul>    
+            </div>
+        </div>
+    </section>
+
     <!-- Intro Header -->
-    <header class="intro">
+    <section id="home" class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Glider Trading</h1>
-                        <p class="intro-text">Participate in the strongest price motions among liquid Futures<br>and rotate into stronger price moves as opportunities arise</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
+                        
+                        <a href="#quotes">
+                            <i class="fa fa-angle-double-up fa-4x faa-bounce animated"></i>
+                            <p class="faa-bounce animated">Scroll Upwards</p>
                         </a>
+                        <h1 class="brand-heading">Welcome To Glider Trading</h1>
+                        <p class="intro-text">Ready to explore our website and share the journey?</p>
+                        <p class="intro-text">Share our experience which defines us</p>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
 
 
@@ -187,7 +213,7 @@ The ascending pyramid process shows a brief illustration of the Strategy. Furthe
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/gliderTrading.js"></script>
 
 </body>
 

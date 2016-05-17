@@ -67,6 +67,9 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+    -moz-box-shadow:    inset 0 20px 20px -20px #E8E8E8;
+    -webkit-box-shadow: inset 0 20px 20px -20px #E8E8E8;
+    box-shadow:         inset 0 20px 20px -20px #c9c9c9;
     
 }
 
@@ -91,6 +94,7 @@ a:focus {
 
 .navbar-custom a {
     color: #000;
+    
 }
 
 .navbar-custom .nav li a {
@@ -101,14 +105,15 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(15,172,221,.8);
     background-color: transparent;
 }
 
-.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:focus, 
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+    
 }
 
 .navbar-custom .nav li.active {
@@ -116,11 +121,12 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(232,232,232,1);
+    border-radius: 1px;
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #0FACDD;
 }
 
 @media(min-width:768px) {
@@ -136,7 +142,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-top: 1px solid rgba(255,255,255,.3);
         background: #fff;
     }
 }
@@ -147,9 +153,12 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: #000;
+    background: url(../img/GLIDER_TRADING_BACKGROUND.jpg) no-repeat bottom center scroll;
+    background-color: #fff;
+    -moz-box-shadow:    0px 20px 20px 0px #fff inset;
+    -webkit-box-shadow: 0px 20px 20px 0px #fff inset;
+    box-shadow:         0px 20px 20px 0px #fff inset;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -189,7 +198,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 0px solid;
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
@@ -203,7 +212,7 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+
 }
 
 .btn-circle i.animated {
@@ -259,14 +268,14 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 10%;
 }
 
-.download-section {
+.trading-section {
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    padding: 0px 0;
+    color: #000;
+    background: url(../img/GLIDER_TRADING_BACKGROUND.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,16 +291,17 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .trading-section {
+        padding: opx 0;
     }
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 10%;
     }
 }
 
@@ -358,7 +368,7 @@ footer p {
 ::selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(15,172,221,.5);
 }
 
 img::selection {
@@ -370,7 +380,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 /* ------------- my css    ----- */
@@ -384,4 +394,35 @@ p.copyright {
 }
 .navbar {
     background-color: #fff;
+    padding: 10px 25px 10px 10px;
 }
+
+a.page-scroll:hover {
+    color: #0FACDD;
+}
+
+
+
+a.download {
+    font-size: 18px;
+    margin: 0 0 25px;
+    line-height: 1.5;
+}
+
+ul.motto {
+    padding: 10%;
+    text-decoration: none;
+    
+}
+
+ul.motto li {
+    font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 20%;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
