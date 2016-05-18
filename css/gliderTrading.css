@@ -25,9 +25,10 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    line-height: 110%;
 }
 
 p {
@@ -129,7 +130,7 @@ a:focus {
     color: #0FACDD;
 }
 
-@media(min-width:768px) {
+@media(min-width:805px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -151,7 +152,8 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 20% 50px 20%;
+    margin-bottom: 50px;
     text-align: center;
     color: #000;
     background: url(../img/GLIDER_TRADING_BACKGROUND.jpg) no-repeat bottom center scroll;
@@ -383,10 +385,10 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-/* ------------- my css    ----- */
+/* ------------- additional css    ----- */
 
 p.copyright {
-    font-size: 1em;
+    font-size: 0.9em;
     font-style: italic;
 }
 #pyramid {
@@ -394,7 +396,7 @@ p.copyright {
 }
 .navbar {
     background-color: #fff;
-    padding: 10px 25px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 a.page-scroll:hover {
@@ -419,10 +421,15 @@ ul.motto li {
     font-family: font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.5em;
     list-style-type: none;
-    padding: 20%;
+    padding: 15%;
 }
 
 h1 {
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+p.faa-bounce {
+    font-size: 1em;
 }
 
